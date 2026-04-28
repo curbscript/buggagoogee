@@ -1,2 +1,5 @@
-- name: Extract Action
-  uses: ihiroky/extract-action@v1
+      - name: Extract zip
+        uses: ihiroky/extract-action@v1
+        with:
+          file_path: path_to_archive_file
+          extract_dir: path_to_extract_directory
